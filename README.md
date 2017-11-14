@@ -1,2 +1,2 @@
 # hugo-myroad
-my own hugo theme
+my own hugo theme. WIP.
