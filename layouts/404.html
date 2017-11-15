@@ -1,0 +1,12 @@
+{{ define "main/begin" }}
+	{{ partial "main/begin_single" . }}
+{{ end }}
+{{ define "main/body" }}
+	<div class="warning">
+		<h1 class="warning__headline">{{ i18n "page_404_headline" }}</h1>
+		<p class="warning__text">{{ i18n "page_404_text" }}</p>
+	</div>
+{{ end }}
+{{ define "sidebar" }}
+<!--empty-->
+{{ end }}

@@ -1,0 +1,38 @@
+{{ block "header" . }}
+	{{ partial "base/header" . }}
+{{ end }}
+{{ block "main/begin" . }}
+	{{ partial "main/begin" . }}
+{{ end }}
+	{{ block "main/body" . }}
+		<p>'coz it looks so empty without me...</p>
+	{{ end }}
+{{ block "main/end" . }}
+	{{ partial "main/end" . }}
+{{ end }}
+{{ block "sidebar" . }}
+	{{ block "sidebar/begin" . }}
+		{{ partial "sidebar/begin" . }}
+	{{ end }}
+		{{ block "sidebar/search" . }}
+			{{ partial "sidebar/search" . }}
+		{{ end }}
+		{{ block "sidebar/recent" . }}
+			{{ partial "sidebar/recent" . }}
+		{{ end }}
+		{{ block "sidebar/categories" . }}
+			{{ partial "sidebar/categories" . }}
+		{{ end }}
+		{{ block "sidebar/contacts" . }}
+			{{ partial "sidebar/contacts" . }}
+		{{ end }}
+		{{ block "sidebar/taglist" . }}
+			{{ partial "sidebar/taglist" . }}
+		{{ end }}
+	{{ block "sidebar/end" . }}
+		{{ partial "sidebar/end" . }}
+	{{ end }}
+{{ end }}
+{{ block "footer" . }}
+	{{ partial "base/footer" . }}
+{{ end }}

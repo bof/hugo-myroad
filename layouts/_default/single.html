@@ -1,0 +1,10 @@
+{{ define "main/begin" }}
+	{{ partial "main/begin_single" . }}
+{{ end }}
+
+{{ define "main/body" }}
+	{{ partial "single/article" . }}
+	{{ partial "single/authorbox" . }}
+	{{ partial "single/postnav" . }}
+	{{ partial "single/comments" . }}
+{{ end }}

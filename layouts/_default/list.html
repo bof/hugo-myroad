@@ -1,0 +1,8 @@
+{{ define "main/body" }}
+		{{ partial "list/header" . }}
+		{{ partial "list/content" . }}
+		{{- range .Paginator.Pages }}
+			{{- .Render "summary" }}
+		{{- end }}
+		{{ partial "list/footer" . }}
+{{ end }}

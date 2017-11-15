@@ -1,0 +1,13 @@
+{{ with .Paginator }}
+{{ if or (.HasPrev) (.HasNext) }}
+<div class="pagination clearfix">
+	{{- if .HasPrev }}
+	<a class="pagination__item pagination__item--prev" href="{{ .Prev.URL }}">«</a>
+	{{- end }}
+	<span class="pagination__item pagination__item--current">{{ .PageNumber }}/{{ .TotalPages }}</span>
+	{{- if .HasNext }}
+	<a class="pagination__item pagination__item--next" href="{{ .Next.URL }}">»</a>
+	{{- end }}
+</div>
+{{ end }}
+{{ end }}
