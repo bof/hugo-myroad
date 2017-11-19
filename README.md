@@ -16,6 +16,9 @@ The theme is based on [vimux/Mainroad](https://github.com/vimux/Mainroad).
 Right now pretty much all html, js, css is from there. I've been reworking
 the template structure a bit, trying to make sense of baseof/block/define...
 
+The gallery / figure shortcodes are integrated from
+[hugo-easy-gallery](https://github.com/liwenyip/hugo-easy-gallery)
+
 Regarding license, I'm putting this work under GPLv2, as that is what
 vimux uses for his Mainroad theme.
 
