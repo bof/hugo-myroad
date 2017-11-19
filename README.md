@@ -12,9 +12,9 @@ and read *their* documentation.
 
 ## config.toml Settings
 
-| Setting       | Default | Usage                                                |
-| ------------- | ------- | ---------------------------------------------------- |
-| *authorbox*   | `false` | globally enable authorbox for single pages           |
+| Setting         | Default | Usage                                                |
+| --------------- | ------- | ---------------------------------------------------- |
+| **authorbox**   | `false` | globally enable authorbox for single pages           |
 
 ## Frontmatter Settings
 
@@ -22,11 +22,11 @@ In addition to the usual frontmatter stuff, this theme gives you several
 additional degrees of freedom to influence what is or is not shown on
 certain single and/or list pages.
 
-| Setting         | Default | Pagetype | Usage                                   |
-| --------------- | ------- | -------- | --------------------------------------- |
-| *authorbox*     | `false` | single   | enable authorbox, if globally disabled  |
-| *no_authorbox*  | `false` | single   | disable authorbox, if globally enabled  |
-| *no_header*     | `false` | single   | suppress title-and-date header          |
+| Setting           | Default | Pagetype | Usage                                   |
+| ----------------- | ------- | -------- | --------------------------------------- |
+| **authorbox**     | `false` | single   | enable authorbox, if globally disabled  |
+| **no_authorbox**  | `false` | single   | disable authorbox, if globally enabled  |
+| **no_header**     | `false` | single   | suppress title-and-date header          |
 
 ## Attribution
 
