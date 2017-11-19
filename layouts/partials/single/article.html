@@ -1,4 +1,5 @@
 	<article class="post">
+		{{ if not .Params.no_header }}
 		<header class="post__header clearfix">
 			<h1 class="post__title">{{ .Title }}</h1>
 			{{- if or (not .Date.IsZero) .Params.categories }}
@@ -18,6 +19,7 @@
 			</p>
 			{{- end }}
 		</header>
+		{{- end }}
 		<div class="post__content clearfix">
 			{{- if .Params.thumbnail }}
 			<figure class="post__thumbnail">
