@@ -9,7 +9,7 @@ other = "Previous"
 [read_more]
 other = "Read more…"
 [footer_copyright_credits]
-other = "Generated with <a href=\"https://gohugo.io/\" rel=\"nofollow noopener\" target=\"_blank\">Hugo</a> and <a href=\"https://github.com/Vimux/Mainroad/\" rel=\"nofollow noopener\" target=\"_blank\">Mainroad theme</a>."
+other = "Generated with <a href=\"https://gohugo.io/\" rel=\"nofollow noopener\" target=\"_blank\">Hugo</a> and <a href=\"https://github.com/bof/hugo-myroad/\" rel=\"nofollow noopener\" target=\"_blank\">Myroad theme</a>."
 [recent_posts_header]
 other = "Recent Posts"
 [social_header]
